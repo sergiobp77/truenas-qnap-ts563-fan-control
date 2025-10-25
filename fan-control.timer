@@ -1,0 +1,10 @@
+[Unit]
+Description=Timer for fan-control
+
+[Timer]
+OnActiveSec=10
+OnUnitActiveSec=10
+Unit=fan-control.service
+
+[Install]
+WantedBy=timers.target
