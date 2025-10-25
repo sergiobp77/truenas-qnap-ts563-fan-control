@@ -1,0 +1,6 @@
+[Unit]
+Description=Run fan control script
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh /mnt/local/fancontrol.sh
