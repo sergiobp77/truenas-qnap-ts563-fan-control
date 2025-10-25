@@ -1,5 +1,5 @@
 [Unit]
-Description=Run fan control script
+Description=Run fan-control script
 
 [Service]
 Type=oneshot
